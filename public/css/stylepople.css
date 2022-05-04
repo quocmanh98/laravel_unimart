@@ -1,0 +1,80 @@
+        /*STYLE*/
+        
+        @import 'import/fonts.css';
+        @import 'import/global.css';
+        @import 'import/header.css';
+        @import 'import/footer.css';
+        @import 'import/home.css';
+        @import 'import/category_product.css';
+        @import 'import/blog.css';
+        @import 'import/detail_product.css';
+        @import 'import/detail_blog.css';
+        @import 'import/cart.css';
+        @import 'import/checkout.css';
+        hr {
+            border-top: 1px solid rgb(160, 42, 42) !important;
+        }
+        
+        #seemore {
+            margin-top: 20px;
+        }
+        
+        .seemore {
+            font-size: 18px;
+            text-align: center;
+            padding: 5px 0px 5px 0px;
+            background: yellow;
+            color: #e55039;
+            border: 1px solid #e2d9d8;
+            box-sizing: border-box;
+        }
+        
+        .finishseemore {
+            font-size: 18px;
+            text-align: center;
+            padding: 5px 0px 5px 0px;
+            background: yellow;
+            color: #e55039;
+            border: 1px solid #e2d9d8;
+            box-sizing: border-box;
+        }
+        
+        .description {
+            /* text-align: center; */
+            border-left: 1px solid #e55039;
+            border-right: 1px solid #e55039;
+        }
+        
+        #description {
+            padding: 10px 10px;
+            /* border-right: 1px solid #e55039; */
+        }
+        
+        .section_detail_product {
+            text-align: center;
+            border: 1px solid #e55039;
+            display: none;
+        }
+        
+        #order_customer {
+            position: relative;
+        }
+        
+        #close {
+            position: absolute;
+            bottom: -60px;
+            right: 50%;
+            background-color: #f6b93b;
+            /* color: #1e3799; */
+            padding: 10px;
+            border-radius: 5px;
+        }
+        
+        #close:hover {
+            background-color: #38ada9;
+            color: white;
+        }
+        
+        #close-search:hover {
+            background: #e55039;
+        }
